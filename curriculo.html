@@ -3,6 +3,55 @@
 <head>
   <meta charset="utf-8">
   <title>Currículo — Jonathan</title>
+  <style>
+    /* CSS simples */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 20px;
+      padding: 0;
+    }
+
+    header, section, footer {
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    h2 {
+      color: green;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    /* Efeito de destaque */
+    section:hover {
+      background-color: #e6f7ff;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background: darkblue;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: navy;
+    }
+  </style>
 </head>
 <body>
   <!-- Cabeçalho -->
@@ -14,9 +63,7 @@
         <p>Telefone: (16) 99629-7480 </p>
         <p>LinkedIn: www.linkedin.com/in/jonathan-humberto-souza-da-costa-3033b4207</p>
     </section>
-   
     <hr>
-    
   </header>
 
   <!-- Resumo / Objetivo -->
@@ -35,7 +82,6 @@
         <li>Realização de levantamentos da qualidade de todas as operações agrícolas do ciclo produtivo da cana-de-açúcar </li>
       </ul>
     </article>
-    <!-- repetir article para outras experiências -->
   </section>
 
   <!-- Formação -->
@@ -56,11 +102,17 @@
     <p>Português (nativo)</p>
   </section>
 
-
-
   <footer>
     <hr>
     <p>Referências disponíveis mediante solicitação.</p>
+    <button onclick="mostrarMensagem()">Clique aqui</button>
   </footer>
+
+  <script>
+    // JavaScript simples
+    function mostrarMensagem() {
+      alert("Obrigado por visualizar meu currículo!");
+    }
+  </script>
 </body>
 </html>
